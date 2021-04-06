@@ -1,0 +1,76 @@
+body{
+  background-color:#2e5090;
+  text-align:center;
+}
+
+h1{
+  color:#fff;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 50px 0 50px 0;
+}
+
+.title{
+  display:block;
+}
+.running{
+  display:none;
+}
+.play{
+  display:none;
+}
+.restart{
+  display:none;
+}
+.level{
+  display:none;
+}
+button{
+  margin: 25px;
+}
+
+.row{
+  margin:0;
+}
+
+.btn{
+  border: 10px solid #000;
+  border-radius:20%;
+  height:200px;
+  width:200px;
+}
+
+.green{
+  background-color:green;
+}
+
+.red{
+  background-color:red;
+}
+
+.yellow{
+  background-color:yellow;
+}
+
+.blue{
+  background-color:blue;
+}
+
+/* Hide messages until needed */
+.preview{
+  display:none;
+}
+
+
+.fail{
+  display:none;
+}
+.victory{
+  display:none;
+}
+.pressed{
+  box-shadow: 0 0 20px #fff;
+}
+button:hover{
+  box-shadow: 0 0 20px #fff;
+}
